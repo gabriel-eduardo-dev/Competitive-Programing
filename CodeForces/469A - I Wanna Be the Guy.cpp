@@ -2,7 +2,7 @@
 #include <set>
 using namespace std;
 
-int main(void)8
+int main(void)
 {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
@@ -12,15 +12,13 @@ int main(void)8
     cin >> sizeX;
     set<int> ans;
 
-    for (int i = 0; i < sizeX; i++)
-    {
+    for (int i = 0; i < sizeX; i++){
         cin >> temp;
         ans.insert(temp);
     }
     cin >> sizeY;
 
-    for (int i = 0; i < sizeY; i++)
-    {
+    for (int i = 0; i < sizeY; i++){
         cin >> temp;
         ans.insert(temp);
     }
